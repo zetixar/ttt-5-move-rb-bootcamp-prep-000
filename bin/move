@@ -6,11 +6,10 @@ puts "Play by typing 1-9 to make your move! 1 being the top left square and 9 be
 
 p1 = "X"
 p2 = "O"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Player 1 make your move!"
 placement = gets.strip
  #Code your CLI Here
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-input_to_index (placement, board, p1 = "X")
+input_to_index (placement, board)
 
 display_board (board)
