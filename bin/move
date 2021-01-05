@@ -5,4 +5,4 @@ x = "X"
 o = "O"
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-input_to_index(5, board, x)
+puts input_to_index(5, board, x)
