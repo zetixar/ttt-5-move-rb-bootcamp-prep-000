@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index placement, board, type = x
+def input_to_index placement, board, type = "X"
 
   placement.to_i
   board[placement - 1] = type.upcase
