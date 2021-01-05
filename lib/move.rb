@@ -10,7 +10,7 @@ end
 def input_to_index placement, board, type = "X"
 
   placement.to_i
-  board[placement - 1] = type.upcase
+  board[board.index(placement - 1)] = placement
 end
 def number_adder(n)
   n += 10
