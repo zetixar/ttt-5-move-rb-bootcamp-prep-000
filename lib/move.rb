@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index placement, board, type = "X"
 
-  
+
   board[(placement.to_i - 1)] = type
 end
 def number_adder(n)
