@@ -1,9 +1,14 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
+puts "Welcome to Tic-Tac-Toe"
+puts "Play by typing 1-9 to make your move! 1 being the top left square and 9 being the bottom right square!"
+
 x = "X"
 o = "O"
+puts "Player 1 make your move!"
+placement = gets.strip
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-input_to_index(5, board, x)
+input_to_index(placement, board, x)
 display_board(board)
