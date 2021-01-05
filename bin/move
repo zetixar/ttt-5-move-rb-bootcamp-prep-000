@@ -10,5 +10,5 @@ puts "Player 1 make your move!"
 placement = gets.strip
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-input_to_index placement, board
+input_to_index 5, board
 display_board (board)
