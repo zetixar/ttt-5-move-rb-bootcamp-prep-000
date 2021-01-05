@@ -7,10 +7,10 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index placement, board, type = X
+def input_to_index placement, board, type = x
 
   placement.to_i
-  board[placement - 1] = type
+  board[placement - 1] = type.upcase
 end
 def number_adder(n)
   n += 10
