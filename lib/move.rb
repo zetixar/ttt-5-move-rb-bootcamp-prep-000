@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index placement, board, type = "X"
+def input_to_index (placement, board, type = "X")
 
 puts placement
   #board[(placement.to_i - 1)] = type
